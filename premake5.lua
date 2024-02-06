@@ -43,4 +43,4 @@ project "yaml-cpp"
 
 	filter "configurations:Shipping"
 		runtime "Release"
-		optimize "on"
+		optimize "speed"
