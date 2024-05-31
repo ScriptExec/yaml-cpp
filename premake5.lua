@@ -4,8 +4,8 @@ project "yaml-cpp"
 	cppdialect "C++17"
 	staticruntime "off"
 
-	targetdir ("%{wks.location}/.build/" .. OutputDir .. "/%{prj.name}")
-	objdir ("%{wks.location}/.build/temp/" .. OutputDir .. "/%{prj.name}")
+	targetdir(ProjectTargetDir)
+	objdir(ProjectObjDir)
 
 	files
 	{
